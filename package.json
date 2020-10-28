@@ -1,0 +1,29 @@
+{
+  "name": "hw-webpack-test",
+  "version": "1.0.0",
+  "description": "webpack-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "dev": "webpack-dev-server --mode=development",
+    "prod": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blood-mari/hw-webpack-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blood-mari/hw-webpack-test/issues"
+  },
+  "homepage": "https://github.com/blood-mari/hw-webpack-test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.3.0"
+  }
+}
