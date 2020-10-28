@@ -1,7 +1,6 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'development',
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -16,15 +15,12 @@ module.exports = {
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                use: ['@babel/preset-env']
+                use: ['babel-loader'],
             }
         ],
     },
     devServer: {
-        contentBase: path.join(__dirname, 'dist'),
-        compress: true,
         port: 9000,
-        clientLogLevel: 'error',
         stats: 'errors-only',
         open: true,
       }
