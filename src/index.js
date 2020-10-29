@@ -1,5 +1,5 @@
 import { getTags } from "./module-1";
-import './css/styles.css';
+import './css/styles.scss';
 
 const validate = 5;
 
